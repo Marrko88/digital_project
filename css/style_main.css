@@ -1,0 +1,366 @@
+.slider__content{
+    position: relative;
+}
+
+.main__slider{
+    display: flex;
+    justify-content: space-between;
+
+}
+.slider__pagination{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.pagination__arrows{
+    display: flex;
+    gap: 23px;
+    margin-top: 90px;
+    height: 53px;
+}
+
+.pagination__arrows-right{
+    display: flex;
+    align-items: center;
+}
+
+.pagination__arrows-line{
+    height: 1px;
+    width: 267px;
+}
+
+.slider__image{
+    width: 100%;
+}
+.arrows-right__item{
+    display: flex;
+    align-items: center;
+}
+
+.slider__link{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+
+}
+
+.project-link{
+    display: flex;
+    align-items: center;
+    width: 222px;
+    height: 70px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.pagination__title{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-link__text{
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+}
+
+.title__text{
+    font-family: Roboto, serif;
+    font-size: 64px;
+}
+
+.title__text--lite{
+    font-weight: 300;
+    color: rgba(189, 189, 189, 1);
+}
+.title__text--dark{
+    font-weight: 700;
+    color: rgba(51, 51, 51, 1);
+}
+
+
+
+/*Коунтер*/
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 142px;
+    height: 52px;
+    font-family: Roboto, serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(189, 189, 189, 1);
+    margin-top: 95px;
+    margin-bottom : 85px;
+}
+
+.counter__current {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter__separator {
+    width: 44px;
+    height: 1px;
+    background: rgba(189, 189, 189, 1);
+    transform: rotate(-45deg);
+}
+
+.counter__total {
+    align-self: flex-start;
+}
+/*Коунтер конец*/
+
+
+/*about*/
+.main__about{
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.about {
+    position: relative;
+    height: 495px;
+}
+
+.about__relative {
+    display: flex;
+    height: 435px;
+    position: relative;
+    background-color: rgba(250,250,250, 1);
+}
+
+.about__relative-img{
+    margin-top: 60px;
+    margin-left: 400px;
+}
+
+.about__relative-text{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about__relative-text > span{
+    font-family: Roboto, serif;
+    font-size: 64px;
+    font-weight: 300;
+    color: rgba(189, 189, 189, 1);
+}
+
+.about__relative-text p{
+
+    font-family: Roboto, serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.about__relative-link{
+    display: flex;
+    align-items: center;
+    width: 222px;
+    height: 70px;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.about__relative-link a{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-family: Roboto, serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.about__absolute {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+/*mission*/
+.mission{
+    display: block;
+    margin-top: 120px;
+}
+.mission__title span{
+    font-family: Roboto, serif;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: rgba(189, 189, 189, 1);
+}
+
+.mission__line{
+    display: flex;
+    margin-top: 60px;
+    gap: 190px;
+}
+
+.mission__item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.mission__item span{
+    font-family: Roboto,serif;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 100%;
+    vertical-align: middle;
+    color: rgba(242, 242, 242, 1);
+}
+
+.mission__item p{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(51, 51, 51, 1);
+}
+
+
+/*Our Projects*/
+.our-projects{
+    margin-top: 120px;
+}
+.our-projects__title{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 64px;
+    color: rgba(189, 189, 189, 1);
+}
+.our-projects__item--two{
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.our-projects__item-content {
+    position: relative;
+    width: 570px;
+    height: 255px;
+    background-image: url(../img/main/our_two_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.our-projects__item-content::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 1;
+}
+
+.our-projects__item-all {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 80px;
+    max-width: 235px;
+}
+
+.our-projects__item--three{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.our-projects__item-title{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.our-projects__item-link{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-family: Gothic A1, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+/*contact us*/
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.contact-us__title{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 64px;
+    color: rgba(189, 189, 189, 1);
+}
+
+.contact-us__content{
+    display: flex;
+    gap: 30px;
+    margin-top: 22px;
+}
+.contact-us__form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.form__text{
+    background: rgba(243, 243, 243, 1);
+    border: none;
+    padding-left: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 390px;
+}
+
+.form__input{
+    height: 45px;
+}
+.form__textarea{
+    padding-top: 14px;
+    height: 150px;
+}
+
+
+.contact-us__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(51, 51, 51, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 70px;
+    width: 222px;
+    gap: 10px;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 78px;
+}

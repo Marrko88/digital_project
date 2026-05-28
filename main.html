@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_main.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="header__logo">
+            <img src="img/main/digitalLogo.svg" alt="logo">
+            <img src="img/main/logoTitle.svg" alt="logoTitle">
+        </div>
+        <div class="header__menu menu">
+            <div class="menu__item"><a class="menu__link" href="main.html">MAIN</a></div>
+            <div class="menu__item"><a class="menu__link" href="gallary.html">GALLERY</a></div>
+            <div class="menu__item"><a class="menu__link" href="our_projects.html">PROJECTS</a></div>
+            <div class="menu__item"><a class="menu__link" href="company_certifications.html">CERTIFICATIONS</a></div>
+            <div class="menu__item"><a class="menu__link" href="contact.html">CONTACTS</a></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main__slider slider">
+            <div class="slider__pagination pagination">
+                <div class="pagination__title title">
+                    <span class="title__text title__text--lite">PROJECT</span>
+                    <span class="title__text title__text--dark">Lorum</span>
+                </div>
+                <div class="pagination__arrows">
+                    <div class="pagination__arrows-left">
+                        <img src="img/main/pag-left.png" alt="">
+                    </div>
+                    <div class="pagination__arrows-right arrows-right">
+                        <div class="arrows-right__item">
+                            <img src="img/main/pag-right.png" alt="">
+                        </div>
+                        <div class="arrows-right__item">
+                            <img class="pagination__arrows-line" src="img/main/pag-line.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination__count counter">
+                    <span class="counter__current">
+                        <span class="counter__digit">0</span>
+                        <span class="counter__digit">1</span>
+                    </span>
+                    <span class="counter__separator"></span>
+                    <span class="counter__total">02</span>
+                </div>
+            </div>
+
+            <div class="slider__content">
+                <div class="slider__image">
+                    <img src="img/main/slider1.png" alt="slider1">
+                </div>
+                <a class="slider__link project-link" href="#">
+                    <span class="project-link__text">VIEW PROJECT</span>
+                    <img class="project-link__arrow" src="img/main/arrow-2-right-long.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="main__about about">
+            <div class="about__relative">
+                <div class="about__relative-img">
+                    <img src="img/main/about_rel_3.png" alt="">
+                </div>
+                <div class="about__relative-text">
+                    <span>About</span>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting,
+                        remaining essentially unchanged.</p>
+                    <div class="about__relative-link">
+                        <a href="#">
+                            <span>READ MORE</span>
+                            <img class="" src="img/main/arrow-2-right-long.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="about__absolute">
+                <img src="img/main/about_rel_1.png" alt="">
+                <img src="img/main/about_rel_2.png" alt="">
+            </div>
+        </div>
+        <div class="mission">
+            <div class="mission__title">
+                <span>Main Focus/Mission Statement</span>
+            </div>
+            <div class="mission__line">
+                <div class="mission__item">
+                    <span>1</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis
+                        placerat.</p>
+                </div>
+                <div class="mission__item">
+                    <span>2</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis
+                        placerat, magna mauris porttitor tortor, a auctor est felis ut nisl.</p>
+                </div>
+            </div>
+        </div>
+        <section class="our-projects">
+            <h2 class="our-projects__title">Our Projects</h2>
+
+            <div class="our-projects__item our-projects__item--two">
+                <div class="our-projects__item-content">
+                    <div class="our-projects__item-all">
+                        <h3 class="our-projects__item-title">Sample Project</h3>
+
+                        <a class="our-projects__item-link" href="#">
+                            <span class="our-projects__item-link-text">VIEW MORE</span>
+                            <img class="our-projects__item-link-icon" src="img/main/arrow-2-right-long-white.png"
+                                 alt="">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="our-projects__item-img">
+                    <img src="img/main/our_two_2.png" alt="">
+                </div>
+            </div>
+
+            <div class="our-projects__item our-projects__item--three">
+                <img class="our-projects__img" src="img/main/our_three_1.png" alt="">
+                <img class="our-projects__img" src="img/main/our_three_2.png" alt="">
+                <img class="our-projects__img" src="img/main/our_three_3.png" alt="">
+            </div>
+
+            <div class="our-projects__button">
+                <a class="our-projects__link" href="#">
+                    <span class="our-projects__all-link-text">VIEW ALL PROJECTS</span>
+                    <img class="our-projects__all-link-icon" src="img/main/arrow-2-right-long-white.png" alt="">
+                </a>
+            </div>
+        </section>
+        <div class="contact-us">
+            <div class="contact-us__title">
+                <span>Contact Us</span>
+            </div>
+            <div class="contact-us__content">
+                <form class="contact-us__form form" action="">
+                    <input class="form__text form__input " type="text" placeholder="Name">
+                    <input class="form__text form__input" type="tel" placeholder="Phone Number">
+                    <input class="form__text form__input" type="email" placeholder="Email">
+                    <input class="form__text form__input" type="text" placeholder="Interested In">
+                    <textarea class="form__text form__textarea" name="" id="" cols="30" rows="10"
+                              placeholder="Message"></textarea>
+                    <button class="contact-us__button">
+                        <span class="our-projects__all-link-text">SEND EMAIL</span>
+                        <img class="our-projects__all-link-icon" src="img/main/arrow-2-right-long-white.png" alt="">
+                    </button>
+                </form>
+                <div class="contact-us__img">
+                    <img src="img/main/contact_us.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="footer">
+    <div class="footer__container">
+        <div class="footer__logo">
+            <img src="img/main/footer_logo.png" alt="logoTitle">
+        </div>
+        <div class="footer__information information">
+            <span class="footer__title information__title">Information</span>
+            <ul class="information__list">
+                <li>Main</li>
+                <li>Gallery</li>
+                <li>Projects</li>
+                <li>Certifications</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <div class="footer__contacts contacts">
+            <span class="footer__title contacts__title">Contacts</span>
+            <div class="contacts__address">
+                <img src="img/main/footer__adress.png" alt="" class="contact__img">
+                <span class="contact__text">1234 Sample Street
+Austin Texas 78704</span>
+            </div>
+            <div class="contacts__phone">
+                <img src="img/main/footer_phone1.svg" alt="" class="contact__img">
+                <span class="contact__text">512.333.2222</span>
+            </div>
+            <div class="contacts__email">
+                <img src="img/main/footer_email1.svg" alt="" class="contact__img">
+                <span class="contact__text">sampleemail@gmail.com</span>
+            </div>
+        </div>
+        <div class="footer__social">
+            <span class="footer__title social__title">Social Media</span>
+            <div class="social__icons icons">
+                <img class="icons__img" src="img/main/facebook.svg" alt="">
+                <img class="icons__img" src="img/main/twitter.svg" alt="">
+                <img class="icons__img" src="./img/main/Linked_In.svg" alt="">
+                <img class="icons__img" src="img/main/pininterest.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer__line"></div>
+    <div class="footer__copyright">
+        <span>© 2021 All Rights Reserved</span>
+    </div>
+</div>
+</body>
+</html>

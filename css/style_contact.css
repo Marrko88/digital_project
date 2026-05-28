@@ -1,0 +1,102 @@
+.contact__title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+}
+.contact__title-text--lite{
+    font-weight: 300;
+    color: rgba(189, 189, 189, 1);
+}
+.contact__title-text--dark{
+    font-weight: 700;
+    color: rgba(51, 51, 51, 1);
+}
+
+.contact__title-text{
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+}
+
+.content{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.content__contact{
+    flex: 0 0 400px;
+    width: 400px;
+}
+
+.contact__map{
+    flex: 1 1 0;
+    min-width: 0;
+    height: 501px;
+    margin-top: 64px;
+    overflow: hidden;
+}
+
+.contact__line{
+    width: 100%;
+    height: 1px;
+    background: rgba(242, 242, 242, 1);
+    margin-top: 22px;
+}
+
+.contact__info{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 34px;
+    font-family: Roboto, sans-serif;
+    color: rgba(51, 51, 51, 1);
+}
+
+.contact__info-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contact__info-text,
+.contact__info-coordinate,
+.contact__info-email{
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contact__button{
+    margin-top: 24px;
+}
+
+.contact__button-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: rgba(51, 51, 51, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 70px;
+    width: 222px;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.contact__button-icon{
+    display: block;
+}
+
+.contact__map img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
