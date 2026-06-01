@@ -67,6 +67,9 @@
     font-size: 16px;
     line-height: 20px;
 }
+.contact__info-coordinate{
+    font-weight: 700;
+}
 
 .contact__button{
     margin-top: 24px;
@@ -99,4 +102,29 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+.contacts__phone {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.contacts__email{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.contacts__address {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+..icons__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.icons__link:hover .icons__img {
+    opacity: 0.7;
 }
